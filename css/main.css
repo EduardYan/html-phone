@@ -1,0 +1,65 @@
+/*
+ * Styles for the phone.
+ * */
+
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Verdana, sans-serif;
+}
+
+body {
+  /* background-color: #78DAC3; */
+  background-color: #424342;
+}
+
+/* View for the phone */
+.view-phone {
+  width: 35%;
+  margin: 5rem auto;
+}
+
+
+/* Phone */
+.phone {
+  border: 1px solid #222;
+  border-radius: 5px;
+  background-color: #444;
+  background-image: url('../img/background-phone.jpg');
+  background-size: cover;
+  transition: box-shadow .6s ease;
+}
+
+.phone:hover {
+  box-shadow: 1px 2px 20px #8e8e8e;
+}
+
+
+/* Browser bar */
+#browser-bar {
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+#browser-bar input {
+  width: 80%;
+}
+
+
+/* generals and fijs applications */
+#applications {
+  margin-top: 20rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+#fijs-applications {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
