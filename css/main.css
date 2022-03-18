@@ -16,29 +16,29 @@ body {
   background-color: #424342;
 }
 
-/* View for the phone */
+/* VIEW FOR THE PHONE */
 .view-phone {
   width: 35%;
   margin: 5rem auto;
 }
 
 
-/* Phone */
+/* PHONE */
 .phone {
   border: 1px solid #222;
   border-radius: 5px;
   background-color: #444;
-  background-image: url('../img/background-phone.jpg');
+  background-image: url('../img/background.jpg');
   background-size: cover;
   transition: box-shadow .6s ease;
 }
 
 .phone:hover {
-  box-shadow: 1px 2px 20px #8e8e8e;
+  box-shadow: 1px 2px 20px #7e7e7e;
 }
 
 
-/* Browser bar */
+/* BROWSER BAR */
 #browser-bar {
   margin: 2rem auto;
   display: flex;
@@ -50,7 +50,7 @@ body {
 }
 
 
-/* generals and fijs applications */
+/* GENERALS AND FIJS APPLICATIONS */
 #applications {
   margin-top: 20rem;
   display: grid;
@@ -58,6 +58,16 @@ body {
   gap: 1rem;
 }
 
+/* FOR EACH APP WIDGET  */
+.app {
+  margin: 0 1rem;
+}
+
+.app:hover {
+  cursor: pointer;
+}
+
+/* FIJS APPLICATIONS */
 #fijs-applications {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
