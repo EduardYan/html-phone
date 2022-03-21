@@ -3,8 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <title>Phone Test</title>
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
     <!-- BOOTSTRAP STYLES -->
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
+
+    <!-- FONTAWESOME ICONS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+      integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <!-- MY STYLES -->
     <link rel="stylesheet" href="./css/main.css" />
   </head>
@@ -23,29 +35,56 @@
               id="search-query"
             />
             <a
-              class="btn btn-secondary mx-2"
+              class="ms-auto"
               id="search-google-button"
               target="_blank"
               rel="noreferrer"
             >
-              Search
-              <i class=""></i>
+              <i class="fa-solid fa-magnifying-glass"></i>
             </a>
           </div>
 
           <!-- GENERAL APPLICATIONS -->
           <section id="applications">
             <div class="app">
-              <img src="./img/whatsapp-image.png" alt="whatsapp" />
+              <!-- <img src="./img/whatsapp-image.png" alt="whatsapp" /> -->
+              <a
+                href="https://web.whatsapp.com/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <i class="fa-brands fa-whatsapp"></i>
+              </a>
             </div>
             <div class="app">
-              <img src="./img/pinterest-image.png" alt="pinterest" />
+              <!-- <img src="./img/pinterest-image.png" alt="pinterest" /> -->
+              <a
+                href="https://www.pinterest.com/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <i class="fa-brands fa-pinterest"></i>
+              </a>
             </div>
             <div class="app">
-              <img src="./img/chrome-image.png" alt="chrome" />
+              <!-- <img src="./img/chrome-image.png" alt="chrome" /> -->
+              <a
+                href="https://www.google.com/chrome/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <i class="fa-brands fa-chrome"></i>
+              </a>
             </div>
             <div class="app">
-              <img src="./img/facebook-image.png" alt="facebook" />
+              <!-- <img src="./img/facebook-image.png" alt="facebook" /> -->
+              <a
+                href="https://www.facebook.com"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <i class="fa-brands fa-facebook"></i>
+              </a>
             </div>
             <!-- <div class="app">
               <img src="./img/instagram-image.png" alt="whatsapp" />
@@ -65,15 +104,15 @@
           <!-- PUT THE ICON TO SHOW THE MENU HERE -->
 
           <!-- FIJS APPLICATIONS -->
-          <section class="mx-auto text-center" id="fijs-applications">
+          <section class="" id="fijs-applications">
             <div class="app">
-              <img src="./img/call-image.png" alt="call-image" />
+              <i class="fa-solid fa-phone"></i>
             </div>
             <div class="app">
-              <img src="./img/messages-image.png" alt="messages-image" />
+              <i class="fa-regular fa-message"></i>
             </div>
             <div class="app">
-              <img src="./img/camara-image.png" alt="camara-image" />
+              <i class="fa-solid fa-address-card"></i>
             </div>
           </section>
         </article>
@@ -82,5 +121,5 @@
 
     <!-- SCRIPTS -->
     <script src="./js/app.js"></script>
-  </body>
+
 </html>
