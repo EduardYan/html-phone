@@ -4,6 +4,7 @@
  *
  */
 
+
 const searchButton = document.getElementById("search-google-button");
 searchButton.addEventListener("click", () => {
   // query to search
