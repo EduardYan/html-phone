@@ -2,12 +2,29 @@
  * Styles for the phone.
  * */
 
+/* VARIABLES */
+:root  {
+  --global-font: 'PT Sans';
+}
+
 * {
   box-sizing: border-box;
 }
 
+*::-moz-selection{
+   background: #999;
+   color: #bbb;
+        
+}
+
+*::selection {
+   background: #999;
+   color: #bbb;
+}
+
+
 html {
-  font-family: Verdana, sans-serif;
+  font-family: var(--global-font), sans-serif;
 }
 
 body {
@@ -53,6 +70,7 @@ body {
 
 #browser-bar input {
   width: 90%;
+  font-family: var(--global-font), sans-serif;
 }
 
 /* SEARCH BUTTON BROWSER BAR */
